@@ -1,0 +1,14 @@
+{
+    "name": "jeffersonmv/contactform",
+    "description": "A contact form package for laravel",
+    "authors": [{
+        "name": "Jefferson Moraes",
+        "email": "guinhow01@gmail.com"
+    }],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Jeffersonmv\\Contactform\\": "src/"
+        }
+    }
+}
