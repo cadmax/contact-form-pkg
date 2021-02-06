@@ -6,6 +6,7 @@
         "email": "guinhow01@gmail.com"
     }],
     "require": {},
+    "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
             "Jeffersonmv\\Contactform\\": "src/"
