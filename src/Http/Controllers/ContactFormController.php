@@ -1,9 +1,9 @@
 <?php
 
-namespace Jeffersonmv\Contactform\Http\Controllers;
+namespace App\Http\Controllers;
 
-use Jeffersonmv\Contactform\Models\ContactForm;
 use App\Http\Controllers\Controller;
+use App\Models\ContactForm;
 use Illuminate\Http\Request;
 
 
@@ -12,7 +12,7 @@ class ContactFormController extends Controller {
 
     public function index()
     {
-       return view('contactform::contact');
+        return view('contact');
     }
 
     public function sendMail(Request $request)
@@ -20,6 +20,4 @@ class ContactFormController extends Controller {
         ContactForm::create($request->all());
         return redirect(route('contact'))->with(['message' => 'Thank you, your mail has been sent succesfully.']);
     }
-
-
 }

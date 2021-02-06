@@ -1,5 +1,5 @@
 <?php
-namespace Jeffersonmv\Contactform\Models;
+namespace App\Models;
 use Illuminate\Database\Eloquent\Model;
 
 class ContactForm extends Model
